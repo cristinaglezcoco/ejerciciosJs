@@ -15,9 +15,11 @@ for(let country of countries) {
     let title = document.createElement('h4');
     miDiv.appendChild(title);
     title.textContent = country.title;
+
     let picture = document.createElement('img');
     miDiv.appendChild(picture);
     picture.src = country.imgUrl;
+    
     let myBtn = document.createElement('button');
     miDiv.appendChild(myBtn);
     myBtn.textContent = 'Remove element';
